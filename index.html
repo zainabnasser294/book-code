@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="./asse/css/indext.css" rel="stylesheet" />
+    <title>JavaScript DOM</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">Bookorama</h1>
+          <p>Books for programming</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." id="search-input" />
+          </form>
+        </div>
+      </header>
+      <div id="search">
+        <h2 class="title">Books to Read</h2>
+        <ul id="book-list">
+          <li>
+            <span class="name">Clean Code</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">Automate the Boring Stuff</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">Design Patterns</span>
+            <span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">Data-structure and Algorithm</span>
+            <span class="delete">delete</span>
+          </li>
+        </ul>
+      </div>
+      <input type="checkbox" id="hide">
+      <label for="hide"> Hide all books </label>
+      <form id="add-book">
+        <input type="text" class="hola" placeholder="Add a book..." />
+        <button>Add</button>
+      </form>
+    </div>
+    <script src="./asse/js/indext.js"></script>
+  </body>
+</html>
